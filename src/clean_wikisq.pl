@@ -54,6 +54,8 @@ while (<>) {
     s/7/ seven /g;
     s/8/ eight /g;
     s/9/ nine /g;
+    s/\./ PERIOD /g;
+    s/\,/ COMMA /g;
     #replace any non-alphas with empty string. 
     s/[^[:alpha:]]+/ /g;
     chop;
