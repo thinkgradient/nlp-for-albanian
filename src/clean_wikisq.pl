@@ -44,18 +44,21 @@ while (<>) {
     # convert to lowercase letters and spaces, spell digits
     $_=" $_ ";
     tr/A-Z/a-z/;
-    s/0/ zero /g;
-    s/1/ one /g;
-    s/2/ two /g;
-    s/3/ three /g;
-    s/4/ four /g;
-    s/5/ five /g;
-    s/6/ six /g;
-    s/7/ seven /g;
-    s/8/ eight /g;
-    s/9/ nine /g;
-    s/\./ PERIOD /g;
-    s/\,/ COMMA /g;
+    s/0//g;
+    s/1//g;
+    s/2//g;
+    s/3//g;
+    s/4//g;
+    s/5//g;
+    s/6//g;
+    s/7//g;
+    s/8//g;
+    s/9//g;
+    s/\./ PIKA /g;
+    s/\,/ PRESJA /g;
+    s/\;/ PIKEPRESJA /g;
+    s/\!/ PIKEQUDITSE /g;
+    s/\?/ PIKEPYETJA /g;
     #replace any non-alphas with empty string. 
     s/[^[:alpha:]]+/ /g;
     chop;
