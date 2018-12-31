@@ -1,4 +1,4 @@
-## Word Embeddings for the Albanian Language
+### Word Embeddings for the Albanian Language
 The data folder contains the downloaded corpus in XML format for the Albanian Wiki. The file is in bz2 format so it needs to be decompressed first.
 
 
