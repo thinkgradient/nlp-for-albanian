@@ -60,8 +60,11 @@ community effort!
 
 You can reach us in the channels below:  
 Slack: https://thinkgradient.slack.com  
+
 Email: projects@thinkgradient.com
+
 Instructions to join this project: https://www.thinkgradient.com/getstarted ("Enroll in an AI Project")
+
 More details about the project: https://www.thinkgradient.com/nlp-for-albanian-language (You must sign up on ThinkGradient.com to view this page - takes a few seconds)
 
 
