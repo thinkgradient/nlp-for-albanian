@@ -27,7 +27,7 @@ __pycache__
 \#*#
 .#*
 .coverage
-src
+
 
 *.swp
 *.map
