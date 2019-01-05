@@ -1,25 +1,20 @@
-### Word Embeddings for the Albanian Language
-The data folder contains the downloaded corpus in XML format for the Albanian Wiki. The file is in bz2 format so it needs to be decompressed first. We will use the WikiCorpus module from the gensim library in order to extract the contents from the bz2 file.
+### Project: Natural Language Processing for the Albanian Language
+The Albanian language falls under a special branch of the Indo-European languages. It is spoken by roughly 10 million people worldwide with most of its speakers residing in western balkans. There is a need to build NLP capabilities for the Albanian language. This project tackles this exact challenge.
  
-
-
-## Installation
-
-#### Compatibility Matrix
-
-
-| Technology  | Version | Notes | 
-|---------------|-----------|-----------|
-| [Python](https://www.python.org/)  | 3.5+  | -  | 
-| [Gensim](https://radimrehurek.com/gensim/install.html)  | 3.2+  | A Python package for text processing. Refere to the link for install instructions  | 
-
-> TODO: Add all the stack and prereqs necessary to get started
-
 
 ## Getting started
 
-Albanian language NLP Toolkit consists of the following features and models:
-1. [Word Embeddings for Albanian Language](/docs/word_embeddings_alb_lang.ipynb)
+Albanian language NLP Toolkit aims to implement the following features and models:
+1. Word Stemmer
+2. Word Embeddings based on CBOW and Skip-Gram techniques
+3. Sentiment Analysis
+4. Text Classification
+5. Part of speech tagging 
+6. Named entity recognition
+7. Grammatical error correction
+8. Word sense disambiguation
+9. Web Crawler
+
 
 ## Getting Involved
 
